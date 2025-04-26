@@ -14,7 +14,7 @@ export const Signin = () => {
     return (
         <div className="signup-component">
             <label>Email</label>
-            <input type="email" required placeholder="Enter your email here" onChange={e => setEmail(e.target.value)} value={email}/>\
+            <input type="email" required placeholder="Enter your email here" onChange={e => setEmail(e.target.value)} value={email}/>
             <label>Password</label>
             <input type="password" required placeholder="Enter your password" onChange={e => setPassword(e.target.value)} value={password}/>
             <button onClick={signinuser}>Signin</button>
